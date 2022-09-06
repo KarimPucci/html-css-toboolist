@@ -1,6 +1,14 @@
 *{
   margin: 0;
   padding: 0%;
+  background-color: lightgrey;
+}
+
+.container{
+  background-color: whitesmoke;
+  width: ;
+  border-radius: 25px;
+  height: ;
 }
 
 /*header*/
@@ -11,4 +19,21 @@
 
 .titolo{
   font-size: 60px;
+}
+/*/header*/
+
+/*main*/
+.pulsante1{
+  padding: 10px;
+  border-radius: 7px;
+  background-color: aqua;
+  color: white;
+  border-color: aliceblue;
+}
+.pulsante2{
+  padding: 10px;
+  border-radius: 7px;
+  background-color: whitesmoke;
+  color: grey;
+  border-color: grey;
 }
