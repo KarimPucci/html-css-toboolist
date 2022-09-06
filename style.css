@@ -1,20 +1,20 @@
 *{
   margin: 0;
-  padding: 0%;
-  background-color: lightgrey;
-}
+  padding: 0%;} 
 
-.container{
-  background-color: whitesmoke;
-  width: ;
-  border-radius: 25px;
-  height: ;
+body{
+  background-color: grey;
 }
 
 /*header*/
 .logo.titolo{
   padding-left: 30px;
+}
+
+header{
   background-color: white;
+  height: 100px;
+  width: 100%;
 }
 
 .titolo{
@@ -23,8 +23,19 @@
 /*/header*/
 
 /*main*/
+.container{
+  background-color: white;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+
 .pulsante1{
   padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
   border-radius: 7px;
   background-color: aqua;
   color: white;
@@ -32,8 +43,27 @@
 }
 .pulsante2{
   padding: 10px;
+  margin-top: 10px;
   border-radius: 7px;
   background-color: whitesmoke;
   color: grey;
   border-color: grey;
+}
+
+.primodiv{
+  padding: 20px;
+}
+.secondodiv{
+  padding: 20px;
+}
+.terzodiv{
+  padding: 20px;
+}
+
+.logo-rosso{
+  color: red;
+  padding: 10px;
+}
+.logo-verde{
+  padding: 10px;
 }
