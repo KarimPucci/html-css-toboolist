@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0%;
+}
+
+/*header*/
+.logo.titolo{
+  padding-left: 30px;
+  background-color: white;
+}
+
+.titolo{
+  font-size: 60px;
+}
