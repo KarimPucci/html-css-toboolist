@@ -4,57 +4,86 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Toboolist</title>
 </head>
 <body>
-  
-  <!--logo e titolo-->
-  <header class="container1">
-    <div class="logo-titolo">
-      <img src="assets (1)/img/Logo.png" alt="logo Toboolist">
-      <span class="titolo">Toboolist</span>
-    </div>
+
+  <header>
+    <img src="img/Logo.png" alt="" id="logo">
+    <span id="logo-text">Toboolist</span>
   </header>
-  <!--/logo e titolo-->
+  <main>
 
-  <hr>
-  <section>&nbsp;</section>
+    <div class="container">
 
-  <main class="container">
-    <div>
-      <button type="button" class="pulsante1">Add Task</button>
-      <button type="button" class="pulsante2">Add Section</button>
-    </div>
-    <span>&nbsp;</span>
+      <div class="top">
+        <button class="btn btn-filled">Add Task</button>
+        <button class="btn btn-empty">Add Section</button>
+      </div>
+      <div class="tasks">
+        <ul>
+          <li>
+            <h3>New Task</h3>
+            <ul>
+              <li>
+                <span class="circle checked"></span>
+                Quartely Newsletter
+                <span class="tag editorial">Editorial</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                qualsiasi cosa
+                <span class="tag recruting">Recruting</span>
+              </li>
+            </ul>
+          </li>
 
-    <hr>
+           <li>
+            <h3>Today</h3>
+            <ul>
+              <li>
+                <span class="circle unchecked"></span>
+                qualsiasi altra cosa
+                <span class="tag mobile">Mobile</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                qualsiasi altra cosa
+                <span class="tag mobile">Mobile</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                qualsiasi altra cosa sales
+                <span class="tag sales">Sales</span>
+              </li>
+            </ul>
+          </li>
 
-    <div class="primodiv">
-      <h2>&#9660 <strong>New Task</strong></h2>
-      <span class="logo-verde">&#x2705 Qarterly Newsletter</span><button type="button" class="pulsante-blocco">Editorial</button>
-    </div>
-
-    <div class="secondodiv">
-      <h2>&#9660 <strong>Today</strong></h2>
-      <p class="logo-verde">&#x2705 Recruting blog post</p><button type="button" class="pulsante-blocco1">Editorial</button>
-      <p class="logo-verde">&#x2705 Mobile app launch</p><button type="button" class="pulsante-blocco2">Q1 Goals</button>
-      <p><span class="logo-rosso">&#10807</span> Interview John H.</p><button type="button" class="pulsante-blocco3">Recruting</button>
-      <p class="logo-verde">&#x2705 Summit update to mobile storefronts</p><button type="button" class="pulsante-blocco4">Mobile</button>
-    </div>
-
-    <div class="terzodiv">
-      <h2>&#9660<strong>Upcoming</strong></h2>
-      <p><span class="logo-rosso">&#10807</span> Schedule meeting with Alex</p>
-      <p class="logo-verde">&#x2705 Homepage refresh</p><button type="button" class="pulsante-blocco5">Websites</button>
-      <p class="logo-verde">&#x2705 Onboard new Sales team members</p><button type="button" class="pulsante-blocco6">Sales</button>
-      <p class="logo-verde">&#x2705>Review editorial calendar</p><button type="button" class="pulsante-blocco7">Editorial</button>
-    </div>
-
-    <div>
-
+         <li>
+            <h3>Upcoming</h3>
+            <ul>
+              <li>
+                <span class="circle unchecked"></span>
+                qualsiasi altra cosa
+                <span class="tag mobile">Mobile</span>
+              </li>
+              <li>
+                <span class="circle unchecked"></span>
+                qualsiasi altra cosa q1
+                <span class="tag q1">Q1 Goals</span>
+              </li>
+              <li>
+                <span class="circle checked"></span>
+                qualsiasi altra cosa sales
+                <span class="tag sales">Sales</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </main>
-
+  
 </body>
 </html>
